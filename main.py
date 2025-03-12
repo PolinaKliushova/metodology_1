@@ -49,6 +49,10 @@ def progression_game():
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'")
             print(f"Let's try again, {name}!")
 
-
-
+print('Select game:')
+game = int(input())
+if game==1:
+    nok_game()
+else:
+    progression_game()
 
